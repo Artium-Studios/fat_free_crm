@@ -6,10 +6,8 @@ GIT
     responds_to_parent (2.0.0)
       actionpack (>= 3.2.22, < 6.1)
 
-GIT
-  remote: https://github.com/fatfreecrm/acts_as_commentable.git
-  revision: eb811316ffbfc66612060822a505d64676564f57
-  branch: rails-6
+PATH
+  remote: vendor/gems/acts_as_commentable-rails-6
   specs:
     acts_as_commentable (6.0.0)
       activerecord (~> 6.0.0)
@@ -526,4 +524,4 @@ DEPENDENCIES
   zeus
 
 BUNDLED WITH
-   2.2.17
+   2.3.3

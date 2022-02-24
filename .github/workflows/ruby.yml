@@ -9,7 +9,7 @@ name: Rspec
 
 on:
   push:
-    branches: [ master ]
+    branches: [ v0.20.0 ]
   pull_request:
     branches: [ master ]
 
